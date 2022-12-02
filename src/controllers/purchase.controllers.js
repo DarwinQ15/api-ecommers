@@ -15,7 +15,7 @@ const purchase = async (req, res, next) =>{
         res.status(201).json(result)
 
         await transporter.sendMail({
-            from: "<candelariacabrera14@gmail.com>",
+            from: "<qdarwin463@gmail.com>",
             to: result.email,
             subject: 'Bienvenido al Ecommers',
             text: `Welcome ${result.username}`,
