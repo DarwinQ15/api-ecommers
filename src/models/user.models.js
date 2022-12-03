@@ -15,10 +15,10 @@ const bcrypt = require("bcrypt");
  *           example: 1
  *         username:
  *           type: string
- *           example: Candelaria
+ *           example: Darwin
  *         email:
  *           type: string
- *           example: cande@gmail.com
+ *           example: Darwin@gmail.com
  *         password:
  *           type: string
  *           example: abc1234
@@ -27,10 +27,10 @@ const bcrypt = require("bcrypt");
  *       properties:
  *         username:
  *           type: string
- *           example: Candelaria
+ *           example: Darwin
  *         email:
  *           type: string
- *           example: cande@gmail.com
+ *           example: darwin@gmail.com
  *         password:
  *           type: string
  *           example: abc1234
@@ -39,7 +39,7 @@ const bcrypt = require("bcrypt");
  *       properties:
  *         email:
  *           type: string
- *           example: cande@gmail.com
+ *           example: darwin@gmail.com
  *         password:
  *           type: string
  *           example: abc1234
