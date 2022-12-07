@@ -11,11 +11,10 @@ const authenticate = ( req, res, next) => {
             next({
                 status: 400,
                 errorContent: error,
-                message: 'Invalide token'
+                message: 'Invalide token',
             });
         }
     }
-
 }
 
 module.exports = authenticate;
